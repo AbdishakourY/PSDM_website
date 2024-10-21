@@ -13,9 +13,9 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "Projects", href: "#" },
+  { label: "About us", href: "#" },
   { label: "Testimonials", href: "#" },
 ];
 
@@ -61,39 +61,33 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Protection Services",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "PSDM focuses on providing protection services for forcibly displaced individuals and migrants in Somalia and the East and Horn of Africa, with an emphasis on community-based initiatives, child protection, legal advocacy, and gender-based violence (GBV) response. We support safe spaces and advocate for legal reforms to protect vulnerable groups, including women, children, and GBV survivors, while addressing protection gaps related to migration and climate change.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Climate-induced Displacement and Migration",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "PSDM addresses climate-induced displacement by protecting and supporting displaced individuals, bolstering their resilience to climate shocks, and advocating for their inclusion in climate adaptation policies while collaborating with communities to restore the environment and improve livelihoods.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Durable Solutions",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "PSDM focuses on promoting self-reliance and sustainable livelihoods for displaced individuals and migrants, ensuring their integration into host communities while advocating for legal protections and equitable access to essential services..",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Capacity Building",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "PSDM's capacity development initiatives enhance the technical skills of national authorities, align laws with international standards, and promote community-driven interventions to ensure forcibly displaced individuals and migrants access their rights, services, and long-term self-reliance.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Advocacy & Policy Engagement",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  },
-  {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "PSDM advocates for laws and policies that protect forcibly displaced individuals and migrants, collaborating with governments and stakeholders to align national frameworks with international standards, prioritize sustainable solutions, and emphasize child and gender-sensitive approaches.",
   },
 ];
 
@@ -122,57 +116,38 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Objectives",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "PSDM is committed to delivering comprehensive protection and sustainable solutions for individuals impacted by forced displacement, climate change, and migration. We recognize the urgency of their protection needs and are dedicated to supporting them in the process of rebuilding their lives with dignity, safety, and resilience. Our goal is to provide protection and solutions to every displaced individual and those on the move, regardless of whether their circumstances arise from conflict, persecution, climate change, and/or migration",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Vision",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "We aspire to create a world where individuals displaced by conflict, climate change, as well as those on move (migrants), can find safety and a pathway to a more promising future. Our vision encompasses communities that not only protect and support displaced persons and migrants but also empower them with opportunities to rebuild their lives and flourish.",
     ],
   },
   {
     title: "Enterprise",
-    price: "$200",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Our mission focuses on ensuring that all individuals, irrespective of the reasons behind their displacement, are equipped to reconstruct their lives with dignity and resilience. We aim to foster an environment where every person can access the resources and support necessary to thrive in their new circumstances.",
     ],
   },
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Projects" },
+  { href: "#", text: "Documentation" }
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Instagram" },
+  { href: "#", text: "Facebook" },
+  { href: "#", text: "LinkedIn" }
 ];
 
 export const communityLinks = [
   { href: "#", text: "Events" },
   { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Conferences" }
 ];

@@ -1,20 +1,18 @@
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
+import migrationImage from "../assets/migration.jpg"; // Import the image
+import migrationImage2 from "../assets/migration2.jpg"; // Import the image
 
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        VirtualR build tools
+        Protection and Solutions
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {" "}
-          for developers
+          for Forced & Climate Induced Displacement and Migration (PSDM)
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Empower your creativity and bring your VR app ideas to life with our
-        intuitive development tools. Get started today and turn your imagination
-        into immersive reality!
+        Committed to supporting individuals displaced by conflict, persecution, and climate change. We provide protection services, advocate for policy reforms, and work with partners to help vulnerable populations in Somalia and beyond rebuild their lives with dignity and resilience.
       </p>
       <div className="flex justify-center my-10">
         <a
@@ -28,24 +26,16 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex mt-10 justify-center">
-        <video
-          autoPlay
-          loop
-          muted
+        <img
+          src={migrationImage} // Use the image instead of video
+          alt="Migration"
           className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
-        >
-          <source src={video1} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <video
-          autoPlay
-          loop
-          muted
+        />
+        <img
+          src={migrationImage2} // Use the image instead of video
+          alt="Migration"
           className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
-        >
-          <source src={video2} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        />
       </div>
     </div>
   );
