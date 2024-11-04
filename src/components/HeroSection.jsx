@@ -14,17 +14,6 @@ const HeroSection = () => {
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
         Committed to supporting individuals displaced by conflict, persecution, and climate change. We provide protection services, advocate for policy reforms, and work with partners to help vulnerable populations in Somalia and beyond rebuild their lives with dignity and resilience.
       </p>
-      <div className="flex justify-center my-10">
-        <a
-          href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
-        >
-          Start for free
-        </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
-        </a>
-      </div>
       <div className="flex mt-10 justify-center">
         <img
           src={migrationImage} // Use the image instead of video

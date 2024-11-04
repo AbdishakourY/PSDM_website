@@ -16,7 +16,6 @@ export const navItems = [
   { label: "Home", href: "#" },
   { label: "Projects", href: "#" },
   { label: "About us", href: "#" },
-  { label: "Testimonials", href: "#" },
 ];
 
 export const testimonials = [
@@ -128,7 +127,7 @@ export const pricingOptions = [
     ],
   },
   {
-    title: "Enterprise",
+    title: "Mission",
     features: [
       "Our mission focuses on ensuring that all individuals, irrespective of the reasons behind their displacement, are equipped to reconstruct their lives with dignity and resilience. We aim to foster an environment where every person can access the resources and support necessary to thrive in their new circumstances.",
     ],
